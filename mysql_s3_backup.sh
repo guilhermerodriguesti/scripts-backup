@@ -4,6 +4,7 @@ echo "Backup..." $DB_NAME
 DB_USER="user_backup"
 DB_PASS="secret"
 DB_HOST="localhost"
+BASE_DIR="/backup/$(date +"%Y")"
 
 BUCKET_NAME="bucket-backup-mysql"
 #default file postfixes
