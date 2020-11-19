@@ -13,3 +13,8 @@ mysql -f my_database -u my_username -p -h
 my_new_database.xxxxxxxxx.us-east-1.rds.amazonaws.com < my_database.sql
 The -f will report errors, but will continue processing the remainder of the dump file.
 Ref.: https://stackoverflow.com/questions/11601692/mysql-amazon-rds-error-you-do-not-have-super-privileges
+
+
+export AWS_ACCESS_KEY_ID="anaccesskey"
+export AWS_SECRET_ACCESS_KEY="asecretkey"
+export AWS_DEFAULT_REGION="us-east-1"
